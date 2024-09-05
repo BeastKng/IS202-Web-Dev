@@ -1,4 +1,42 @@
-#title {
-	font-family: 'Germania One';
+/*Title*/
+h2 {
+	font-family: 'Germania One',cursive;
 	font-size: 20px;
+    float: left;
 }
+
+/*Catch Phrase*/
+p1{
+    font-style: italic;
+    color: tomato; 
+    padding-left: 10px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    float: right;
+}
+
+/*Banner*/
+banner{
+    height: 180px;
+    max-width: fit-content;
+}
+
+/*Nav Bar*/
+nav{
+    background-color: #333333;
+    li{
+        display: inline;
+    }
+    a{
+        color: white;
+    }
+}
+
+a:hover{
+    color: black;
+}
+
+
+
+
